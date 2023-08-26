@@ -1,0 +1,146 @@
+
+.img{
+    width: 440px;
+    height: 315px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.img:hover {
+    transform: scale(1.05); /* Zoom in by 20% on hover */
+  }
+
+#head-img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+#head-cover{
+    margin: -8px;/*Get rid of default margin from outside the head-cover div */
+    position: relative;
+    text-align: center;
+
+    /*These are to make the texts on top of the image */
+    
+    
+    
+}
+
+.welcome{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  font-size: 150px;
+  transform: translate(-50%, -50%);
+  font-family: 'Oswald', sans-serif;
+  color: #101f44;
+
+
+   /*These are to make the texts on top of the image */
+}
+
+.discover{
+    background: linear-gradient(#ECE2D0,#CEBEBE);
+    margin: -55px -8px;
+
+}
+
+.story{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+
+.storyBox{
+    padding-top: 80px;
+    margin-right: 170px ;
+    margin-left: 170px;
+    margin-bottom: 70px;
+}
+
+.toVisit{
+    display: flex;
+    justify-content: center;
+    
+   
+    
+}
+
+.toVisitName{
+    position: relative;
+    text-align: center;
+}
+
+.namePlaces{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  font-size: 53px;
+  transform: translate(-50%, -50%);
+  font-family: 'Qwitcher Grypen', cursive;
+  text-shadow: 2px 2px 1px black;
+  color: #ebe8e8;
+}
+
+.toDo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+
+.toDoPic{
+    width: 450px;
+    height: 325px;
+    border: 1px solid none;
+    border-radius: 100%;
+    margin-right: 80px;
+    margin-left: 80px;
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.toDoPic:hover {
+    transform: scale(1.05); /* Zoom in by 20% on hover */
+    
+  }
+
+.tourGuide{
+    
+    padding: 20px;
+    width: 800px;
+    height: 600px;
+    background-color: pink;
+    display: flex;
+    margin: 100px auto 50px auto; /*to center*/
+    justify-content: space-around;
+    text-align: center; /*center the text*/
+    border: 10px solid #d8cefe;
+    font-size: 35px;
+    font-style: italic;
+   
+    
+    
+}
+
+.guideText{
+    display: block;
+    margin-right: 30px;
+}
+
+.name{
+    margin-top: 40px ;
+    font-size: 45px ;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.guide{
+   transform: scale(0.7); /*makes the picure 0.7 times as big*/   
+    
+}
