@@ -1,7 +1,7 @@
 
 .img{
-    width: 440px;
-    height: 315px;
+    width: 300px;
+    height: 215px;
     margin-left: 20px;
     margin-bottom: 20px;
     transition: transform 0.3s ease-in-out;
@@ -14,8 +14,9 @@
   }
 
 #head-img{
-    width: 100%;
-    height: 100%;
+  width: 100%;   /* 100% of viewport width */
+  height: 100%;  /* 100% of viewport height */
+  
    
 }
 
@@ -34,7 +35,7 @@
   position: absolute;
   top: 20%;
   left: 50%;
-  font-size: 150px;
+  font-size: 100px;
   transform: translate(-50%, -50%);
   font-family: 'Oswald', sans-serif;
   color: #101f44;
@@ -51,7 +52,7 @@
 
 .story{
     text-align: center;
-    font-size: 50px;
+    font-size: 39px;
     padding-top: 20px;
     font-family: 'Bricolage Grotesque', sans-serif;
 }
@@ -81,7 +82,7 @@
   position: absolute;
   top: 35%;
   left: 50%;
-  font-size: 53px;
+  font-size: 33px;
   transform: translate(-50%, -50%);
   font-family: 'Qwitcher Grypen', cursive;
   text-shadow: 2px 2px 1px black;
@@ -95,12 +96,12 @@
 }
 
 .toDoPic{
-    width: 450px;
-    height: 325px;
+    width: 310px;
+    height: 225px;
     border: 1px solid none;
     border-radius: 100%;
-    margin-right: 80px;
-    margin-left: 80px;
+    margin-right: 60px;
+    margin-left: 60px;
     transition: transform 0.2s ease-in-out;
 
 }
@@ -113,15 +114,15 @@
 .tourGuide{
     
     padding: 20px;
-    width: 800px;
-    height: 600px;
+    width: 540px;
+    height: 410px;
     background-color: pink;
     display: flex;
     margin: 100px auto 50px auto; /*to center*/
     justify-content: space-around;
     text-align: center; /*center the text*/
     border: 10px solid #d8cefe;
-    font-size: 35px;
+    font-size: 23px;
     font-style: italic;
    
     
@@ -135,7 +136,7 @@
 
 .name{
     margin-top: 40px ;
-    font-size: 45px ;
+    font-size: 28px ;
     font-style: normal;
     font-weight: 600;
 }
